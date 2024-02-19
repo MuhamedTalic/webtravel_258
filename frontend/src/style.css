@@ -1,0 +1,105 @@
+.App {
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+
+    .addHome {
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px; 
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    .putovanja {
+        display: flex;
+        gap: 10px;
+
+
+        .putovanje {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #ddd; 
+
+            img {
+                width: 200px;
+                height: 300px;
+                object-fit: cover;
+                background-color: rgb(135, 124, 206);
+                border-top-left-radius: 8px; 
+                border-top-right-radius: 8px; 
+            }
+
+            button {
+                padding: 3px 6px;
+                background-color: white;
+                cursor: pointer;
+                border-radius: 5px; 
+            }
+
+            .delete {
+                border: 1px solid rgb(245, 191, 191);
+                color: rgb(242, 100, 100);
+            }
+
+            .update {
+                border: 1px solid rgb(204, 204, 243);
+                color: rgb(139, 139, 234);
+            }
+            
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input,
+        textarea {
+            width: 100%; 
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px; 
+        }
+
+        button {
+            border: none;
+            padding: 10px;
+            background-color: teal;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px; 
+        }
+    }
+}
+
+.newButton {
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(10, 179, 21);
+    color: rgb(10, 179, 21);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none; 
+    display: inline-block; 
+}
